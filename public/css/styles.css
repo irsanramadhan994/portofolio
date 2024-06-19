@@ -1,0 +1,179 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header, footer,* {
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+header,footer{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Apply the shadow */
+}
+
+.hero-content{
+
+    padding-top: 5rem;
+    min-height: 60vh;
+}
+
+.img-frame{
+
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background-color: blanchedalmond;
+}
+
+.img-frame img{
+
+    position: absolute;
+    top: 6%;
+    left: 6%;
+}
+
+.txt-primary-dark{
+    color: #254336;
+}
+
+.txt-secondary-dark{
+    color: #6B8A7A;
+}
+.txt-primary-light{
+    color: #B7B597;
+}
+.txt-secondary-light{
+    color: #DAD3BE;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+#portofolio{
+
+    padding: 10rem 1rem;
+}
+
+
+#about{
+
+    padding: 10rem 1rem;
+}
+
+
+
+section{
+    min-height: 90vh;
+}
+
+
+.button-contact{
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    min-width: 175px;
+    font-weight: bold;
+    background: #254336;
+    color: #DAD3BE;
+    transition: 0.3s;
+
+}
+
+.button-contact:hover{
+    border: 1px solid #254336;
+    background: transparent;
+    color: #254336;
+
+}
+
+.bgn-light{
+
+    background-color:#DAD3BE !important ;
+}
+
+.bgn-dark{
+    background-image: linear-gradient(to right top, #254336, #365446, #476557, #597768, #6b8a7a);
+
+}
+
+.gap-10{
+    gap:10px;
+}
+
+h1 {
+    font-size: 2.5em; /* Equivalent to 40px if the base font size is 16px */
+  }
+  
+  h2 {
+    font-size: 2em; /* Equivalent to 32px if the base font size is 16px */
+  }
+  
+  h3 {
+    font-size: 1.75em; /* Equivalent to 28px if the base font size is 16px */
+  }
+  
+  h4 {
+    font-size: 1.5em; /* Equivalent to 24px if the base font size is 16px */
+  }
+  
+  h5 {
+    font-size: 1.25em; /* Equivalent to 20px if the base font size is 16px */
+  }
+  
+  h6 {
+    font-size: 1em;
+  }
+
+  .social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #254336;
+}
+.social-icons i:hover {
+    color: #DAD3BE;
+}
+.carousel-item img {
+    max-height: 500px;
+    filter: brightness(70%);
+    object-fit: cover;
+}
+
+#hero {
+    position: relative;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-1 {
+    animation: fadeIn 1s ease-in;
+}
+.fade-in-2 {
+    animation: fadeIn 2s ease-in;
+}
+.fade-in-2 {
+    animation: fadeIn 3s ease-in;
+}
+
+/* Additional custom styles */

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irsan Ramadhan | Software Engineer</title>
+    <link rel="stylesheet" href="public/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="public/images/favico.ico">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body data-spy="scroll" data-target="#navbarNav" data-offset="100">
+    <!-- Header Section -->
+    <header class="bg-light py-2 sticky-top">
+      <div class="container d-flex justify-content-between align-items-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+          <a class="navbar-brand txt-primary-dark" href="#"> Irsan Ramadhan </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portofolio">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-light py-3 py-md-5">
+      <div class="container">
+        <div class="d-flex justify-content-between hero-content">
+          <div class="text-zone d-flex flex-column gap-10 p-5">
+            <h1 class="align-self-start txt-primary-dark fade-in-1">
+              Hi, I'm Irsan Ramadhan,
+            </h1>
+            <h2 class="align-self-start txt-secondary-dark fade-in-1">
+              Software Engineer | Fullstack Developer
+            </h2>
+            <p class="fade-in-1 txt-primary-light">
+              I'm Helping people to create good websites.
+            </p>
+
+            <div class="row align-items-center">
+              <a
+                href="#about"
+                class="text-center button-contact align-self-start col-md-4 fade-in-1"
+                >ABOUT ME</a
+              >
+
+              <div class="social-icons col-md-8 mt-4 mt-md-0">
+                <a href="https://github.com/yourprofile" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/irsanramadhan/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="img-frame fade-in-1 d-none d-md-block">
+            <img src="public/images/avatar.jpeg" width="300px" alt="avatar" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-3 py-md-5 bgn-dark text-white">
+      <div class="container mt-5">
+        <div class="row justify-content-between">
+          <div class="img-frame d-none d-md-block">
+            <img src="public/images/about.jpg" width="300px" alt="about" />
+          </div>
+          <div class="text-zone" style="max-width: 450px;">
+            <h1 class="mb-4 txt-primary-light">About Me</h1>
+            <p class="txt-secondary-light text-justify">
+              Hello! I'm <u>Irsan Ramadhan</u>, a passionate and experienced
+              Full Stack Developer and Software Engineer with a knack for
+              building dynamic, user-centric applications. With a robust
+              background in both front-end and back-end technologies, I thrive
+              on creating seamless and scalable solutions that bridge the gap
+              between complex technical requirements and intuitive user
+              experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portofolio" class="bg-light">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-12 mx-auto txt-primary-dark">
+            <div class="row justify-content-between">
+              <div class="text-zone col-md-4">
+                <h2>Portfolio</h2>
+                <p class="lead">
+                  Here are some of the projects I've worked on.
+                </p>
+              </div>
+              <div class="carousel-frame"></div>
+              <div
+                id="portfolioCarousel"
+                class="carousel slide col-md-7"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <!-- Portfolio Item 1 -->
+                  <div class="carousel-item active">
+                    <img
+                      src="public/images/porto1.png"
+                      class="d-block w-100"
+                      alt="Project 1"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Telkom Mailing Portal</h5>
+                      <p>
+                        Implemented a comprehensive internal mailing management
+                        system to streamline employee and administrative
+                        processes.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Portfolio Item 2 -->
+                  <div class="carousel-item txt-secondary-light">
+                    <img
+                      src="public/images/porto2.png"
+                      class="d-block w-100"
+                      alt="Project 2"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Ministry of marine affairs and fisheries Portal</h5>
+                      <p>
+                        Designed an interactive portal to provide actionable
+                        insights through real-time data visualization. Empowered
+                        users to make informed decisions with comprehensive
+                        analytics tools.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Portfolio Item 3 -->
+                  <div class="carousel-item">
+                    <img
+                      src="public/images/porto3.png"
+                      class="d-block w-100"
+                      alt="Project 3"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Integrated Core System LPS</h5>
+                      <p>
+                        Create an interactive core system to provide easiness of
+                        business administration. Empowered users to make
+                        informed decisions with comprehensive analytics tools.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#portfolioCarousel"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#portfolioCarousel"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="skills" class="py-3 py-md-5 bgn-dark text-white">
+      <div class="container-fluid mt-5">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="row justify-content-between">
+              <div class="img-frame d-none d-md-block">
+                <img src="public/images/skills.jpg" width="300px" alt="skills" />
+              </div>
+              <div class="text-zone col-md-6 offset-md-2">
+                <h1 class="mb-4 txt-primary-light">Skills</h1>
+                <p class="lead txt-secondary-light">
+                  Here are some of the skillsets I've got on.
+                </p>
+                <ul class="txt-secondary-light">
+                  <li>Javascript</li>
+                  <li>Node Js</li>
+                  <li>Php</li>
+                  <li>React Js</li>
+                  <li>Angular 2+</li>
+                  <li>Git</li>
+                  <li>Docker</li>
+                  <li>Java</li>
+                  <li>Spring Boot</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bgn-dark text-white text-center py-3">
+      <div class="container">
+        <p>&copy; 2024 Irsan Ramadhan. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
